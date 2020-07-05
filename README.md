@@ -4,4 +4,4 @@ I found myself in the market for a new Fender Telecaster electric guitar, and mo
 
 This script utlilzes BeautfulSoup to pull data from the html file when there is a new listing. I then sorted through the data to isolate the new postings and then their links, and I utilized the Twilio REST API to send a text to my phone directly.
 
-The code is flexible, all you have to do is input the url of the listing page with the keyword already in the search bar, as well as your Twilio data and phone number, and you can use it as well.
+The code is flexible, all you have to do is input the url of the listing page with the keyword already in the search bar, so you can get as specific with your search as you'd like. Also add your Twilio data and phone number, and that's all you need to get started.
