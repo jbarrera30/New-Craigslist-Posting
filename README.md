@@ -4,4 +4,4 @@ I found myself in the market for a new Fender Telecaster electric guitar, and mo
 
 This script utlilzes Beautful Soup library to pull data from the html file when there is a new listing. I sorted through the data to firsy identify which are actual new posts from today, since Criagslist automattically bumps from 20+ days ago. I then isolated the new postings and then their links, and I utilized the Twilio REST API to send a text to my phone directly.
 
-The code is flexible, all you have to do is input the url of the listing page with the keyword already in the search bar, so you can get as specific with your search as you'd like. Also add your Twilio data and phone number, and that's all you need to get started. In my experience, make sure your url has 'sort=rel' towards the end, it seems to update faster.
+The code is flexible, all you have to do is input the url of the listing page with the keyword already in the search bar, so you can get as specific with your search as you'd like. Also add your Twilio data and phone number, and that's all you need to get started. In my experience, make sure your url has '&sort=rel' towards the end, it seems to update faster.
