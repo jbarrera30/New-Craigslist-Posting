@@ -1,13 +1,10 @@
 from functions import *
 
-
-
-
 def main():
-    url = 'https://orangecounty.craigslist.org/search/sss?query=fender+telecaster'
+    url = '<url here>'
     links = []
     original_html = initialize_listing(url)
-    while True: #every 15 minutes
+    while True:
         new_html = initialize_listing(url)
         if original_html != new_html:
             original_posts = original_html.find_all('li', class_='result-row')
@@ -19,7 +16,6 @@ def main():
             for element in links:
                 textme(element)
             original_html = new_html
-            print('Found One')
 
 if __name__ == '__main__':
     main()
