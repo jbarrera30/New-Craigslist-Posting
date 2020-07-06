@@ -3,7 +3,7 @@ import datetime
 
 #check date
 def main():
-    url = 'https://orangecounty.craigslist.org/search/sss?query=fender%20telecaster&sort=rel'
+    url = '<your url here>'
     original_html = initialize_listing(url)
     while True:
         new_html = initialize_listing(url)
