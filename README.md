@@ -7,5 +7,5 @@ This script utlilizes Beautful Soup library to pull data from the html file when
 The code is flexible, all you have to do is input the url of the listing page with the keyword already in the search bar, so you can get as specific with your search as you'd like. Also add your Twilio data and phone number, and that's all you need to get started. In my experience, make sure your URL has '&sort=rel' towards the end, it seems to update faster.
 
 <div align="center"> 
-    <img src="https://github.com/jbarrera30/New-Craigslist-Posting/blob/master/texts.jpg?raw=true" width = "40%") 
+    <img src="https://github.com/jbarrera30/New-Craigslist-Posting/blob/master/texts.jpg?raw=true" width = "70%") 
 </div>
