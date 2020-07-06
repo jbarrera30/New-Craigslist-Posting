@@ -10,8 +10,8 @@ def initialize_listing(url):
     return BeautifulSoup(original.text, 'html.parser')
 
 def textme(link):
-    client = Client("AC2338c4f3e153b2965fa9af46f8e39d7c", "07207c83a8a012a64415285988c93d93")
-    client.messages.create(to="+19499239560", from_="+12056512405", body= link)
+    client = Client("<Twilio ID>", "<Twilio Authorization Token")
+    client.messages.create(to="<Your Phone Number>", from_="<Twilio Phone Number>", body= link)
 
 def find_posts(html):
     return html.find_all('li', class_='result-row')
